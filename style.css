@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#posts-container {
+    display: grid;
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.post h2 {
+    color: purple;
+}
+
+.post p {
+    color: #444;
+    line-height: 1.6;
+}
